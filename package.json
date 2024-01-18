@@ -1,4 +1,9 @@
 {
+  "homepage": "https://DevDanWillan.github.io/test-page",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
   "dependencies": {
     "@types/jest": "^29.5.11",
     "@types/node": "^20.11.5",
